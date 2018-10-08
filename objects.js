@@ -3,7 +3,7 @@
 //var meals = new Object();
 
 var playlist = {
-  "Bob Marley": "Is this love?",
+  
 };
 
 function updatePlaylist(playlist, name, song) {
