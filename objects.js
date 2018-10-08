@@ -3,8 +3,8 @@
 //var meals = new Object();
 
 var playlist = {
-  bobMarley: "Is this love?",
-}
+  "Bob Marley": "Is this love?",
+
 
 function updatePlaylist(playlist, name, song) {
   playlist.name = song;
@@ -14,4 +14,6 @@ function updatePlaylist(playlist, name, song) {
 function removeFromPlaylist(playlist, name) {
   delete playlist.name;
   return playlist;
+}
+
 }
