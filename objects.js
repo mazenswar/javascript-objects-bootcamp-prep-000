@@ -6,12 +6,12 @@ var playlist = {
   "Bob Marley": "Is this love?",
 };
 
-function updatePlaylist(playlist, name, song) {
-  playlist.name = song;
+function updatePlaylist(obj, name, song) {
+  obj.name = song;
   return playlist;
 }
 
-function removeFromPlaylist(playlist, name) {
+function removeFromPlaylist(obj, name) {
   delete playlist.name;
   return playlist;
 }
