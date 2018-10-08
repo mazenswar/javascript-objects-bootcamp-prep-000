@@ -8,12 +8,12 @@ var playlist = {
 
 function updatePlaylist(obj, name, song) {
   obj.name = song;
-  return playlist;
+  return obj;
 }
 
 function removeFromPlaylist(obj, name) {
-  delete playlist.name;
-  return playlist;
+  delete obj.name;
+  return obj;
 }
 
 
